@@ -1,0 +1,5 @@
+An empty state is like safe state to put the class object set to default value, so it won’t contain random garbage value that might cause crash or errors, and it can set the pointer to nullptr, not pointing to any random space, some possible empty state value example could be like “” , ‘\0’, nullptr, 0. These are all possible empty state values. 
+
+Structs and Classes are basically the same things with one difference, Structs by default set the access level to public, which means members are accessible for everyone. Class by default set the access level to private, which means the members are only accessible by members of the object. Or anything within the same class scope, they are inaccessible for anyone else.
+
+I learned how to use public member function of the class to access the member variables that set to be private members in the class, during the workshop I have difficulties to allocate dynamic memory and not quite understand how are the setDesc and getDesc member function works. Although I manager to make it work finally, but still not very clear at this point. I need to go thought them more times and keep studying for them.
